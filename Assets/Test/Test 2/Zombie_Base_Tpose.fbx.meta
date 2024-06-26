@@ -1,0 +1,1409 @@
+fileFormatVersion: 2
+guid: 112e32568081c4f4ba8b6c990b229999
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Zombie_Base_Tpose(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:Main
+      parentName: Zombie_Base_Tpose(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:MotionSystem
+      parentName: herobrine_3D_rig:Main
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKSystem
+      parentName: herobrine_3D_rig:MotionSystem
+      position: {x: -9.860761e-34, y: 3.5527136e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKParentConstraintToChest_M
+      parentName: herobrine_3D_rig:FKSystem
+      position: {x: -5.5212665e-17, y: 0.16012008, z: 2.2204459e-17}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKOffsetNeck_M
+      parentName: herobrine_3D_rig:FKParentConstraintToChest_M
+      position: {x: -0.019273682, y: -4.894126e-17, z: 6.2174316e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKExtraNeck_M
+      parentName: herobrine_3D_rig:FKOffsetNeck_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKNeck_M
+      parentName: herobrine_3D_rig:FKExtraNeck_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKXNeck_M
+      parentName: herobrine_3D_rig:FKNeck_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKOffsetHead_M
+      parentName: herobrine_3D_rig:FKXNeck_M
+      position: {x: -0.02924526, y: 0.00000002, z: -2.801845e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKGlobalStaticHead_M
+      parentName: herobrine_3D_rig:FKOffsetHead_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKGlobalHead_M
+      parentName: herobrine_3D_rig:FKGlobalStaticHead_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKExtraHead_M
+      parentName: herobrine_3D_rig:FKGlobalHead_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKHead_M
+      parentName: herobrine_3D_rig:FKExtraHead_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKXHead_M
+      parentName: herobrine_3D_rig:FKHead_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKOffsetScapula_R
+      parentName: herobrine_3D_rig:FKParentConstraintToChest_M
+      position: {x: -0.0037920447, y: -5.6736795e-17, z: -0.02985773}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKExtraScapula_R
+      parentName: herobrine_3D_rig:FKOffsetScapula_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKScapula_R
+      parentName: herobrine_3D_rig:FKExtraScapula_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKXScapula_R
+      parentName: herobrine_3D_rig:FKScapula_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKOffsetScapula_L
+      parentName: herobrine_3D_rig:FKParentConstraintToChest_M
+      position: {x: -0.0037920447, y: -5.0432666e-17, z: 0.02985773}
+      rotation: {x: 0.7071068, y: 6.7133486e-16, z: 0.7071068, w: -6.7133486e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKExtraScapula_L
+      parentName: herobrine_3D_rig:FKOffsetScapula_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKScapula_L
+      parentName: herobrine_3D_rig:FKExtraScapula_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKXScapula_L
+      parentName: herobrine_3D_rig:FKScapula_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKParentConstraintToScapula_R
+      parentName: herobrine_3D_rig:FKSystem
+      position: {x: 0.02985773, y: 0.16391212, z: -4.779183e-17}
+      rotation: {x: -3.4779213e-16, y: 0.7071068, z: 0.7071068, w: -6.8085906e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKOffsetShoulder_R
+      parentName: herobrine_3D_rig:FKParentConstraintToScapula_R
+      position: {x: -0.014870803, y: -1.9146457e-16, z: -7.105427e-17}
+      rotation: {x: 0, y: 0, z: 0.00249583, w: 0.9999969}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKExtraShoulder_R
+      parentName: herobrine_3D_rig:FKOffsetShoulder_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKShoulder_R
+      parentName: herobrine_3D_rig:FKExtraShoulder_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKXShoulder_R
+      parentName: herobrine_3D_rig:FKShoulder_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKOffsetElbow_R
+      parentName: herobrine_3D_rig:FKXShoulder_R
+      position: {x: -0.030018289, y: -4.784367e-16, z: -3.8369305e-15}
+      rotation: {x: -0.0000000032257195, y: -0.0000039085176, z: -0.0041663484, w: 0.99999136}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKExtraElbow_R
+      parentName: herobrine_3D_rig:FKOffsetElbow_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKElbow_R
+      parentName: herobrine_3D_rig:FKExtraElbow_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKXElbow_R
+      parentName: herobrine_3D_rig:FKElbow_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKParentConstraintToRoot_M
+      parentName: herobrine_3D_rig:FKSystem
+      position: {x: -3.2846976e-18, y: 0.0954282, z: -0.0024573023}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKOffsetHip_R
+      parentName: herobrine_3D_rig:FKParentConstraintToRoot_M
+      position: {x: 0.013660545, y: -0.0062202355, z: 0.0015652417}
+      rotation: {x: 0.46101177, y: 0.5408299, z: 0.45321319, w: 0.53811616}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKExtraHip_R
+      parentName: herobrine_3D_rig:FKOffsetHip_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKHip_R
+      parentName: herobrine_3D_rig:FKExtraHip_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKXHip_R
+      parentName: herobrine_3D_rig:FKHip_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKOffsetKnee_R
+      parentName: herobrine_3D_rig:FKXHip_R
+      position: {x: -0.04539942, y: -4.6185276e-16, z: 7.3274716e-17}
+      rotation: {x: 0, y: 0, z: 0.17539753, w: 0.9844977}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKExtraKnee_R
+      parentName: herobrine_3D_rig:FKOffsetKnee_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKKnee_R
+      parentName: herobrine_3D_rig:FKExtraKnee_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKXKnee_R
+      parentName: herobrine_3D_rig:FKKnee_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKOffsetAnkle_R
+      parentName: herobrine_3D_rig:FKXKnee_R
+      position: {x: -0.035171226, y: 4.8572257e-17, z: -4.243272e-15}
+      rotation: {x: -0.0100162495, y: 0.0039225994, z: -0.09369529, w: 0.9955428}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKExtraAnkle_R
+      parentName: herobrine_3D_rig:FKOffsetAnkle_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKAnkle_R
+      parentName: herobrine_3D_rig:FKExtraAnkle_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKXAnkle_R
+      parentName: herobrine_3D_rig:FKAnkle_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKOffsetHip_L
+      parentName: herobrine_3D_rig:FKParentConstraintToRoot_M
+      position: {x: -0.013660545, y: -0.0062202355, z: 0.0015652417}
+      rotation: {x: 0.5381162, y: -0.45321319, z: 0.54082996, w: -0.46101177}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKExtraHip_L
+      parentName: herobrine_3D_rig:FKOffsetHip_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKHip_L
+      parentName: herobrine_3D_rig:FKExtraHip_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKXHip_L
+      parentName: herobrine_3D_rig:FKHip_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKOffsetKnee_L
+      parentName: herobrine_3D_rig:FKXHip_L
+      position: {x: 0.04539942, y: 4.3742785e-16, z: -7.771561e-17}
+      rotation: {x: 0, y: 0, z: 0.17539753, w: 0.9844977}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKExtraKnee_L
+      parentName: herobrine_3D_rig:FKOffsetKnee_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKKnee_L
+      parentName: herobrine_3D_rig:FKExtraKnee_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKXKnee_L
+      parentName: herobrine_3D_rig:FKKnee_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKOffsetAnkle_L
+      parentName: herobrine_3D_rig:FKXKnee_L
+      position: {x: 0.035171226, y: 7.299716e-17, z: 4.28324e-15}
+      rotation: {x: -0.0100162495, y: 0.0039225994, z: -0.09369529, w: 0.9955428}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKExtraAnkle_L
+      parentName: herobrine_3D_rig:FKOffsetAnkle_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKAnkle_L
+      parentName: herobrine_3D_rig:FKExtraAnkle_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKXAnkle_L
+      parentName: herobrine_3D_rig:FKAnkle_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKOffsetRoot_M
+      parentName: herobrine_3D_rig:FKSystem
+      position: {x: -3.2846976e-18, y: 0.0954282, z: -0.0024573023}
+      rotation: {x: 0.49334455, y: -0.506568, z: -0.49334455, w: 0.506568}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKExtraRoot_M
+      parentName: herobrine_3D_rig:FKOffsetRoot_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKRoot_M
+      parentName: herobrine_3D_rig:FKExtraRoot_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKXRoot_M
+      parentName: herobrine_3D_rig:FKRoot_M
+      position: {x: -0, y: -5.724587e-19, z: -7.888609e-33}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKOffsetSpine1_M
+      parentName: herobrine_3D_rig:FKXRoot_M
+      position: {x: -0.034845874, y: 2.7460672e-17, z: -2.2658558e-17}
+      rotation: {x: 0, y: -0, z: -0.06950874, w: 0.99758136}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:HipSwingerStabilizer
+      parentName: herobrine_3D_rig:FKOffsetSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 1.3877788e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKExtraSpine1_M
+      parentName: herobrine_3D_rig:HipSwingerStabilizer
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKSpine1_M
+      parentName: herobrine_3D_rig:FKExtraSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKXSpine1_M
+      parentName: herobrine_3D_rig:FKSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKOffsetChest_M
+      parentName: herobrine_3D_rig:FKXSpine1_M
+      position: {x: -0.030048763, y: 5.3290704e-17, z: 4.774707e-17}
+      rotation: {x: 0, y: 0, z: 0.05631114, w: 0.99841326}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKExtraChest_M
+      parentName: herobrine_3D_rig:FKOffsetChest_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKChest_M
+      parentName: herobrine_3D_rig:FKExtraChest_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKXChest_M
+      parentName: herobrine_3D_rig:FKChest_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:HipSwingReverse
+      parentName: herobrine_3D_rig:FKRoot_M
+      position: {x: -0.034845874, y: 2.7460672e-17, z: -2.2658558e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:HipSwingReverseRoot
+      parentName: herobrine_3D_rig:HipSwingReverse
+      position: {x: 0.034845874, y: -2.8336706e-17, z: 2.2658558e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKParentConstraintToScapula_L
+      parentName: herobrine_3D_rig:FKSystem
+      position: {x: -0.02985773, y: 0.16391212, z: -1.4968708e-17}
+      rotation: {x: 9.948776e-16, y: -0.7071068, z: 0.7071068, w: -6.618106e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKOffsetShoulder_L
+      parentName: herobrine_3D_rig:FKParentConstraintToScapula_L
+      position: {x: 0.014870803, y: 1.541216e-16, z: 0}
+      rotation: {x: 0, y: 0, z: 0.00249583, w: 0.9999969}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKExtraShoulder_L
+      parentName: herobrine_3D_rig:FKOffsetShoulder_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKShoulder_L
+      parentName: herobrine_3D_rig:FKExtraShoulder_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKXShoulder_L
+      parentName: herobrine_3D_rig:FKShoulder_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKOffsetElbow_L
+      parentName: herobrine_3D_rig:FKXShoulder_L
+      position: {x: 0.030018289, y: 4.2993386e-16, z: 3.730349e-15}
+      rotation: {x: -0.00000000322572, y: -0.0000039085176, z: -0.0041663484, w: 0.99999136}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKExtraElbow_L
+      parentName: herobrine_3D_rig:FKOffsetElbow_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKElbow_L
+      parentName: herobrine_3D_rig:FKExtraElbow_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKXElbow_L
+      parentName: herobrine_3D_rig:FKElbow_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKSystem
+      parentName: herobrine_3D_rig:MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKJoints
+      parentName: herobrine_3D_rig:IKSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKParentConstraintShoulder_R
+      parentName: herobrine_3D_rig:IKJoints
+      position: {x: 0.02985773, y: 0.16391212, z: -4.779183e-17}
+      rotation: {x: -3.5731632e-16, y: 0.7071068, z: 0.7071068, w: -6.7133486e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKXOffsetShoulder_R
+      parentName: herobrine_3D_rig:IKParentConstraintShoulder_R
+      position: {x: -0.014870803, y: -1.9146457e-16, z: -7.105427e-17}
+      rotation: {x: 0, y: 0, z: 0.00249583, w: 0.9999969}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKXShoulder_R
+      parentName: herobrine_3D_rig:IKXOffsetShoulder_R
+      position: {x: -0, y: -3.469447e-20, z: 0}
+      rotation: {x: -0.000000007439825, y: 3.705489e-11, z: -0.0000022771735, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKXElbow_R
+      parentName: herobrine_3D_rig:IKXShoulder_R
+      position: {x: -0.030018289, y: -4.7847144e-16, z: -3.9435122e-15}
+      rotation: {x: -0.0000000032257055, y: -0.000003904951, z: -0.0041625467, w: 0.99999136}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKMessureFromShoulder_R
+      parentName: herobrine_3D_rig:IKParentConstraintShoulder_R
+      position: {x: -0.014870803, y: -1.9149927e-16, z: -7.105427e-17}
+      rotation: {x: 0, y: 0, z: 0.00249583, w: 0.9999969}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKParentConstraintHip_R
+      parentName: herobrine_3D_rig:IKJoints
+      position: {x: -3.2846976e-18, y: 0.0954282, z: -0.0024573023}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKXOffsetHip_R
+      parentName: herobrine_3D_rig:IKParentConstraintHip_R
+      position: {x: 0.013660545, y: -0.0062202355, z: 0.0015652417}
+      rotation: {x: 0.46101177, y: 0.5408299, z: 0.45321319, w: 0.53811616}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKXHip_R
+      parentName: herobrine_3D_rig:IKXOffsetHip_R
+      position: {x: -0, y: -4.440892e-18, z: 2.220446e-18}
+      rotation: {x: -2.1450274e-18, y: 1.3804103e-17, z: 0.00000012242553, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKXKnee_R
+      parentName: herobrine_3D_rig:IKXHip_R
+      position: {x: -0.04539942, y: -4.440892e-16, z: 6.217249e-17}
+      rotation: {x: 1.769997e-20, y: 9.619411e-20, z: 0.17539725, w: 0.9844978}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKXAnkle_R
+      parentName: herobrine_3D_rig:IKXKnee_R
+      position: {x: -0.035171226, y: -3.9412916e-17, z: -4.2388315e-15}
+      rotation: {x: -0.010016249, y: 0.0039225975, z: -0.09369529, w: 0.9955428}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKMessureFromHip_R
+      parentName: herobrine_3D_rig:IKParentConstraintHip_R
+      position: {x: 0.013660545, y: -0.0062202355, z: 0.0015652417}
+      rotation: {x: 0.46101177, y: 0.5408299, z: 0.45321319, w: 0.53811616}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKParentConstraintRoot_M
+      parentName: herobrine_3D_rig:IKJoints
+      position: {x: -3.2846976e-18, y: 0.0954282, z: -0.0024573023}
+      rotation: {x: 0.49334455, y: -0.506568, z: -0.49334455, w: 0.506568}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKXOffsetRoot_M
+      parentName: herobrine_3D_rig:IKParentConstraintRoot_M
+      position: {x: -0, y: -1.7347234e-20, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKXRoot_M
+      parentName: herobrine_3D_rig:IKXOffsetRoot_M
+      position: {x: -7.105427e-17, y: 2.7495366e-18, z: -1.5777218e-32}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKXSpine1_M
+      parentName: herobrine_3D_rig:IKXRoot_M
+      position: {x: -0.034845874, y: 2.3566218e-17, z: -2.2658558e-17}
+      rotation: {x: 0, y: 0, z: -0.06950874, w: 0.99758136}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKXChest_M
+      parentName: herobrine_3D_rig:IKXSpine1_M
+      position: {x: -0.030048763, y: 6.883383e-17, z: 4.774707e-17}
+      rotation: {x: 0, y: 0, z: 0.05631114, w: 0.99841326}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKfake0Spine_M
+      parentName: herobrine_3D_rig:IKParentConstraintRoot_M
+      position: {x: -1.7763568e-17, y: 8.1532003e-19, z: 7.888609e-33}
+      rotation: {x: -3.488667e-18, y: 5.076698e-16, z: -0.06436969, w: 0.9979261}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKSpSpine1_M
+      parentName: herobrine_3D_rig:IKfake0Spine_M
+      position: {x: -0.03477361, y: -0.0022430182, z: -2.2658558e-17}
+      rotation: {x: 2.4597036e-17, y: -3.786132e-16, z: 0.06950874, w: 0.99758136}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKSpChest_M
+      parentName: herobrine_3D_rig:IKSpSpine1_M
+      position: {x: -0.02996493, y: 0.0022430182, z: 2.282137e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKFixedOrientRoot_M
+      parentName: herobrine_3D_rig:IKfake0Spine_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -1.3877788e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKAcRootFollowOffset_M
+      parentName: herobrine_3D_rig:IKFixedOrientRoot_M
+      position: {x: -3.5527136e-17, y: -2.220446e-18, z: -7.888609e-33}
+      rotation: {x: 0, y: 0, z: 0.06436969, w: 0.9979261}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKSpRootFollowOffset_M
+      parentName: herobrine_3D_rig:IKFixedOrientRoot_M
+      position: {x: -1.7763568e-17, y: 0, z: 7.888609e-33}
+      rotation: {x: 0, y: 0, z: 0.06436969, w: 0.9979261}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKParentConstraintShoulder_L
+      parentName: herobrine_3D_rig:IKJoints
+      position: {x: -0.02985773, y: 0.16391212, z: -1.4968708e-17}
+      rotation: {x: 1.0286512e-15, y: -0.7071068, z: 0.7071068, w: -6.28037e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKXOffsetShoulder_L
+      parentName: herobrine_3D_rig:IKParentConstraintShoulder_L
+      position: {x: 0.014870803, y: 1.6254672e-16, z: 3.5527136e-17}
+      rotation: {x: 0, y: 0, z: 0.00249583, w: 0.9999969}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKXShoulder_L
+      parentName: herobrine_3D_rig:IKXOffsetShoulder_L
+      position: {x: -0, y: 3.469447e-20, z: 0}
+      rotation: {x: 1.0662958e-11, y: -1.1899604e-13, z: -0.0000022771735, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKXElbow_L
+      parentName: herobrine_3D_rig:IKXShoulder_L
+      position: {x: 0.030018289, y: 4.297257e-16, z: 3.8014034e-15}
+      rotation: {x: -0.000000003225706, y: -0.000003904951, z: -0.0041625467, w: 0.99999136}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKMessureFromShoulder_L
+      parentName: herobrine_3D_rig:IKParentConstraintShoulder_L
+      position: {x: 0.014870803, y: 1.6258141e-16, z: 3.5527136e-17}
+      rotation: {x: 0, y: 0, z: 0.00249583, w: 0.9999969}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKParentConstraintHip_L
+      parentName: herobrine_3D_rig:IKJoints
+      position: {x: -3.2846976e-18, y: 0.0954282, z: -0.0024573023}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKXOffsetHip_L
+      parentName: herobrine_3D_rig:IKParentConstraintHip_L
+      position: {x: -0.013660545, y: -0.0062202355, z: 0.0015652417}
+      rotation: {x: 0.5381162, y: -0.45321319, z: 0.54082996, w: -0.46101177}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKXHip_L
+      parentName: herobrine_3D_rig:IKXOffsetHip_L
+      position: {x: -0, y: -6.661338e-18, z: 0}
+      rotation: {x: -2.1490096e-18, y: 1.3829597e-17, z: 0.00000012265204, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKXKnee_L
+      parentName: herobrine_3D_rig:IKXHip_L
+      position: {x: 0.04539942, y: 4.72955e-16, z: -7.9936054e-17}
+      rotation: {x: 1.7784446e-20, y: 9.725068e-20, z: 0.17539725, w: 0.9844978}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKXAnkle_L
+      parentName: herobrine_3D_rig:IKXKnee_L
+      position: {x: 0.035171226, y: 1.523781e-16, z: 4.2699177e-15}
+      rotation: {x: -0.010016249, y: 0.0039225975, z: -0.09369529, w: 0.9955428}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKMessureFromHip_L
+      parentName: herobrine_3D_rig:IKParentConstraintHip_L
+      position: {x: -0.013660545, y: -0.0062202355, z: 0.0015652417}
+      rotation: {x: 0.5381162, y: -0.45321319, z: 0.54082996, w: -0.46101177}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKSpSpineOffset_M
+      parentName: herobrine_3D_rig:IKJoints
+      position: {x: -3.2846976e-18, y: 0.0954282, z: -0.0024573023}
+      rotation: {x: 0.50940096, y: -0.49041888, z: -0.50940096, w: 0.49041888}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKSpSpine1FollowOffset_M
+      parentName: herobrine_3D_rig:IKSpSpineOffset_M
+      position: {x: -0.03477361, y: -0.0022430182, z: -3.5329016e-17}
+      rotation: {x: 0, y: -0, z: -0.037349034, w: 0.9993023}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKSpChestFollowOffset_M
+      parentName: herobrine_3D_rig:IKSpSpineOffset_M
+      position: {x: -0.06473854, y: -5.5511148e-18, z: 1.616016e-18}
+      rotation: {x: 0, y: 0, z: 0.018982086, w: 0.9998198}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKAcSpineOffset_M
+      parentName: herobrine_3D_rig:IKJoints
+      position: {x: -3.2846976e-18, y: 0.0954282, z: -0.0024573023}
+      rotation: {x: 0.49334455, y: -0.506568, z: -0.49334455, w: 0.506568}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKAcRoot_M
+      parentName: herobrine_3D_rig:IKAcSpineOffset_M
+      position: {x: -3.5527136e-17, y: 2.515349e-19, z: 0}
+      rotation: {x: 6.021654e-36, y: 1.2581242e-18, z: -0.032201547, w: 0.9994814}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKAcSpine1_M
+      parentName: herobrine_3D_rig:IKAcSpineOffset_M
+      position: {x: -0.03477361, y: 0.0022430185, z: 8.763541e-20}
+      rotation: {x: 0, y: -0, z: -0.032201547, w: 0.9994814}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKAcChest_M
+      parentName: herobrine_3D_rig:IKAcSpineOffset_M
+      position: {x: -0.06460428, y: 0.0041672, z: 1.6281378e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKAcSpineOffset3_M
+      parentName: herobrine_3D_rig:IKJoints
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKAcPociXformSpine1_M
+      parentName: herobrine_3D_rig:IKAcSpineOffset3_M
+      position: {x: -1.7818817e-17, y: 0.13024896, z: -0.0011346458}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKAcPociXformChest_M
+      parentName: herobrine_3D_rig:IKAcSpineOffset3_M
+      position: {x: -3.0286967e-17, y: 0.16012008, z: 1.0824674e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKAcSpineOffset2_M
+      parentName: herobrine_3D_rig:IKJoints
+      position: {x: -3.2846976e-18, y: 0.0954282, z: -0.0024573023}
+      rotation: {x: 0.50940096, y: -0.49041888, z: -0.50940096, w: 0.49041888}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKAcSpine1FollowOffset_M
+      parentName: herobrine_3D_rig:IKAcSpineOffset2_M
+      position: {x: -0.03477361, y: -0.0022430182, z: -3.4955478e-17}
+      rotation: {x: 0, y: -0, z: -0.037349034, w: 0.9993023}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKHandle
+      parentName: herobrine_3D_rig:IKSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKOffsetArm_R
+      parentName: herobrine_3D_rig:IKHandle
+      position: {x: 0.119594574, y: 0.16391177, z: 1.0650998e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKExtraArm_R
+      parentName: herobrine_3D_rig:IKOffsetArm_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKArm_R
+      parentName: herobrine_3D_rig:IKExtraArm_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKmessureConstrainToArm_R
+      parentName: herobrine_3D_rig:IKArm_R
+      position: {x: 1.7763568e-17, y: 1.0658141e-16, z: 8.673617e-20}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:PoleOffsetArm_R
+      parentName: herobrine_3D_rig:IKHandle
+      position: {x: 0.074684784, y: 0.16398221, z: -0.0748666}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:PoleExtraArm_R
+      parentName: herobrine_3D_rig:PoleOffsetArm_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:PoleArm_R
+      parentName: herobrine_3D_rig:PoleExtraArm_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKOffsetcvSpine1_M
+      parentName: herobrine_3D_rig:IKHandle
+      position: {x: -1.6785832e-17, y: 0.12777413, z: -0.0012286511}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKExtracvSpine1_M
+      parentName: herobrine_3D_rig:IKOffsetcvSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKcvSpine1_M
+      parentName: herobrine_3D_rig:IKExtracvSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKSpineLocator1_M
+      parentName: herobrine_3D_rig:IKcvSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKOffsetSpine2_M
+      parentName: herobrine_3D_rig:IKHandle
+      position: {x: -2.9248683e-17, y: 0.12777413, z: -0.0012286511}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKExtraSpine2_M
+      parentName: herobrine_3D_rig:IKOffsetSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKSpine2_M
+      parentName: herobrine_3D_rig:IKExtraSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKSpine2LocalOrient1_M
+      parentName: herobrine_3D_rig:IKSpine2_M
+      position: {x: -3.9443044e-33, y: 1.7763568e-17, z: -4.1633362e-19}
+      rotation: {x: 0.49334455, y: -0.506568, z: -0.49334455, w: 0.506568}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKSpine2LocalOrient2_M
+      parentName: herobrine_3D_rig:IKSpine2LocalOrient1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKOffsetSpine3_M
+      parentName: herobrine_3D_rig:IKHandle
+      position: {x: -5.5212665e-17, y: 0.16012008, z: 1.9706458e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKExtraSpine3_M
+      parentName: herobrine_3D_rig:IKOffsetSpine3_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKSpine3_M
+      parentName: herobrine_3D_rig:IKExtraSpine3_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKSpineLocator2_M
+      parentName: herobrine_3D_rig:IKSpine3_M
+      position: {x: 2.49257e-17, y: 3.5527136e-17, z: -8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKSpine3LocalOrient1_M
+      parentName: herobrine_3D_rig:IKSpine3_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKSpine3LocalOrient2_M
+      parentName: herobrine_3D_rig:IKSpine3LocalOrient1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKOffsetConstrainedSpine1_M
+      parentName: herobrine_3D_rig:IKHandle
+      position: {x: -3.2846976e-18, y: 0.0954282, z: -0.0024573023}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKOffsetSpine1_M
+      parentName: herobrine_3D_rig:IKOffsetConstrainedSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKExtraSpine1_M
+      parentName: herobrine_3D_rig:IKOffsetSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKSpine1_M
+      parentName: herobrine_3D_rig:IKExtraSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKSpineLocator0_M
+      parentName: herobrine_3D_rig:IKSpine1_M
+      position: {x: -1.5777218e-32, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKSpine1LocalOrient1_M
+      parentName: herobrine_3D_rig:IKSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.49334455, y: -0.506568, z: -0.49334455, w: 0.506568}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKSpine1LocalOrient2_M
+      parentName: herobrine_3D_rig:IKSpine1LocalOrient1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKOffsetLeg_R
+      parentName: herobrine_3D_rig:IKHandle
+      position: {x: 0.013198767, y: 0.009872419, z: -1.1213252e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKExtraLeg_R
+      parentName: herobrine_3D_rig:IKOffsetLeg_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKLeg_R
+      parentName: herobrine_3D_rig:IKExtraLeg_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKLegFootRockInnerPivot_R
+      parentName: herobrine_3D_rig:IKLeg_R
+      position: {x: -0.013085711, y: -0.009872419, z: 0.0050462205}
+      rotation: {x: 0, y: -0.00531104, z: -0, w: 0.99998593}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKLegFootRockOuterPivot_R
+      parentName: herobrine_3D_rig:IKLegFootRockInnerPivot_R
+      position: {x: 0.029815454, y: 0, z: 0.0011014576}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKFKAlignedLeg_R
+      parentName: herobrine_3D_rig:IKLegFootRockOuterPivot_R
+      position: {x: -0.016784083, y: 0.009872419, z: -0.0062863883}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:RollOffsetHeel_R
+      parentName: herobrine_3D_rig:IKLegFootRockOuterPivot_R
+      position: {x: -0.01705267, y: 0.00010212035, z: -0.021111121}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:RollRollerHeel_R
+      parentName: herobrine_3D_rig:RollOffsetHeel_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:RollExtraHeel_R
+      parentName: herobrine_3D_rig:RollRollerHeel_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:RollHeel_R
+      parentName: herobrine_3D_rig:RollExtraHeel_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:RollOffsetToesEnd_R
+      parentName: herobrine_3D_rig:RollHeel_R
+      position: {x: 0.0003584573, y: -0.0000215277, z: 0.0297489}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:RollRollerToesEnd_R
+      parentName: herobrine_3D_rig:RollOffsetToesEnd_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:RollExtraToesEnd_R
+      parentName: herobrine_3D_rig:RollRollerToesEnd_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:RollToesEnd_R
+      parentName: herobrine_3D_rig:RollExtraToesEnd_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:RollOffsetToes_R
+      parentName: herobrine_3D_rig:RollToesEnd_R
+      position: {x: -0.000089869274, y: 0.004314236, z: -0.008459489}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:RollRollerToes_R
+      parentName: herobrine_3D_rig:RollOffsetToes_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:RollExtraToes_R
+      parentName: herobrine_3D_rig:RollRollerToes_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:RollToes_R
+      parentName: herobrine_3D_rig:RollExtraToes_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKmessureConstrainToLeg_R
+      parentName: herobrine_3D_rig:RollToes_R
+      position: {x: -2.8257946e-10, y: 0.0054775905, z: -0.006464678}
+      rotation: {x: 0, y: 0.00531104, z: -0, w: 0.99998593}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:PoleOffsetLeg_R
+      parentName: herobrine_3D_rig:IKHandle
+      position: {x: 0.014205197, y: 0.043583717, z: 0.08017196}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:PoleExtraLeg_R
+      parentName: herobrine_3D_rig:PoleOffsetLeg_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:PoleLeg_R
+      parentName: herobrine_3D_rig:PoleExtraLeg_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKOffsetArm_L
+      parentName: herobrine_3D_rig:IKHandle
+      position: {x: -0.119594574, y: 0.16391177, z: 1.0653583e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKExtraArm_L
+      parentName: herobrine_3D_rig:IKOffsetArm_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKArm_L
+      parentName: herobrine_3D_rig:IKExtraArm_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKmessureConstrainToArm_L
+      parentName: herobrine_3D_rig:IKArm_L
+      position: {x: -1.7763568e-17, y: 3.5527136e-17, z: 1.7347234e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:PoleOffsetArm_L
+      parentName: herobrine_3D_rig:IKHandle
+      position: {x: -0.074684784, y: 0.16398221, z: -0.0748666}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:PoleExtraArm_L
+      parentName: herobrine_3D_rig:PoleOffsetArm_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:PoleArm_L
+      parentName: herobrine_3D_rig:PoleExtraArm_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKOffsetLeg_L
+      parentName: herobrine_3D_rig:IKHandle
+      position: {x: -0.013198767, y: 0.009872419, z: -5.551115e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKExtraLeg_L
+      parentName: herobrine_3D_rig:IKOffsetLeg_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKLeg_L
+      parentName: herobrine_3D_rig:IKExtraLeg_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKLegFootRockInnerPivot_L
+      parentName: herobrine_3D_rig:IKLeg_L
+      position: {x: 0.013085711, y: -0.009872419, z: 0.0050462205}
+      rotation: {x: 0, y: 0.00531104, z: -0, w: 0.99998593}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKLegFootRockOuterPivot_L
+      parentName: herobrine_3D_rig:IKLegFootRockInnerPivot_L
+      position: {x: -0.029815454, y: 0, z: 0.0011014576}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKFKAlignedLeg_L
+      parentName: herobrine_3D_rig:IKLegFootRockOuterPivot_L
+      position: {x: 0.016784083, y: 0.009872419, z: -0.0062863883}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:RollOffsetHeel_L
+      parentName: herobrine_3D_rig:IKLegFootRockOuterPivot_L
+      position: {x: 0.01705267, y: 0.00010212035, z: -0.021111121}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:RollRollerHeel_L
+      parentName: herobrine_3D_rig:RollOffsetHeel_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:RollExtraHeel_L
+      parentName: herobrine_3D_rig:RollRollerHeel_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:RollHeel_L
+      parentName: herobrine_3D_rig:RollExtraHeel_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:RollOffsetToesEnd_L
+      parentName: herobrine_3D_rig:RollHeel_L
+      position: {x: -0.0003584573, y: -0.0000215277, z: 0.0297489}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:RollRollerToesEnd_L
+      parentName: herobrine_3D_rig:RollOffsetToesEnd_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:RollExtraToesEnd_L
+      parentName: herobrine_3D_rig:RollRollerToesEnd_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:RollToesEnd_L
+      parentName: herobrine_3D_rig:RollExtraToesEnd_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:RollOffsetToes_L
+      parentName: herobrine_3D_rig:RollToesEnd_L
+      position: {x: 0.000089869274, y: 0.004314236, z: -0.008459489}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:RollRollerToes_L
+      parentName: herobrine_3D_rig:RollOffsetToes_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:RollExtraToes_L
+      parentName: herobrine_3D_rig:RollRollerToes_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:RollToes_L
+      parentName: herobrine_3D_rig:RollExtraToes_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKmessureConstrainToLeg_L
+      parentName: herobrine_3D_rig:RollToes_L
+      position: {x: 2.8257946e-10, y: 0.0054775905, z: -0.006464678}
+      rotation: {x: 0, y: -0.00531104, z: -0, w: 0.99998593}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:PoleOffsetLeg_L
+      parentName: herobrine_3D_rig:IKHandle
+      position: {x: -0.014205197, y: 0.043583717, z: 0.08017196}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:PoleExtraLeg_L
+      parentName: herobrine_3D_rig:PoleOffsetLeg_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:PoleLeg_L
+      parentName: herobrine_3D_rig:PoleExtraLeg_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKScalerRoot_M
+      parentName: herobrine_3D_rig:IKHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKScalerSpine1_M
+      parentName: herobrine_3D_rig:IKHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKScalerChest_M
+      parentName: herobrine_3D_rig:IKHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKCurve
+      parentName: herobrine_3D_rig:IKSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKSpineCurve_M
+      parentName: herobrine_3D_rig:IKCurve
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKMessure
+      parentName: herobrine_3D_rig:IKSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKmessureLoc1Arm_R
+      parentName: herobrine_3D_rig:IKMessure
+      position: {x: 0.044728536, y: 0.16391212, z: -2.392911e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKmessureLoc2Arm_R
+      parentName: herobrine_3D_rig:IKmessureLoc1Arm_R
+      position: {x: 0.074866034, y: -0.00000035057843, z: 1.0653392e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKdistanceArm_R
+      parentName: herobrine_3D_rig:IKMessure
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKmessureLoc1Leg_R
+      parentName: herobrine_3D_rig:IKMessure
+      position: {x: 0.013660545, y: 0.08920796, z: -0.00089206046}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKmessureLoc2Leg_R
+      parentName: herobrine_3D_rig:IKmessureLoc1Leg_R
+      position: {x: -0.00046177945, y: -0.07933555, z: 0.00089206046}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKdistanceLeg_R
+      parentName: herobrine_3D_rig:IKMessure
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKmessureLoc1Arm_L
+      parentName: herobrine_3D_rig:IKMessure
+      position: {x: -0.044728536, y: 0.16391212, z: -1.6912502e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKmessureLoc2Arm_L
+      parentName: herobrine_3D_rig:IKmessureLoc1Arm_L
+      position: {x: -0.074866034, y: -0.00000035057843, z: 1.0655277e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKdistanceArm_L
+      parentName: herobrine_3D_rig:IKMessure
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKmessureLoc1Leg_L
+      parentName: herobrine_3D_rig:IKMessure
+      position: {x: -0.013660545, y: 0.08920796, z: -0.00089206046}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKmessureLoc2Leg_L
+      parentName: herobrine_3D_rig:IKmessureLoc1Leg_L
+      position: {x: 0.00046177945, y: -0.07933555, z: 0.00089206046}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:IKdistanceLeg_L
+      parentName: herobrine_3D_rig:IKMessure
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKIKSystem
+      parentName: herobrine_3D_rig:MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKIKParentConstraintArm_R
+      parentName: herobrine_3D_rig:FKIKSystem
+      position: {x: 0.02985773, y: 0.16391212, z: -4.779183e-17}
+      rotation: {x: -3.4779213e-16, y: 0.7071068, z: 0.7071068, w: -6.8085906e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKIKArm_R
+      parentName: herobrine_3D_rig:FKIKParentConstraintArm_R
+      position: {x: -0.02977166, y: -0.00007438069, z: 0.013812829}
+      rotation: {x: -4.3297806e-17, y: 0.7071068, z: 0.7071068, w: -4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKIKParentConstraintLeg_R
+      parentName: herobrine_3D_rig:FKIKSystem
+      position: {x: -3.2846976e-18, y: 0.0954282, z: -0.0024573023}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKIKLeg_R
+      parentName: herobrine_3D_rig:FKIKParentConstraintLeg_R
+      position: {x: 0.031076, y: -0.021022636, z: 0.0038359754}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKIKParentConstraintSpine_M
+      parentName: herobrine_3D_rig:FKIKSystem
+      position: {x: -3.2846976e-18, y: 0.0954282, z: -0.0024573023}
+      rotation: {x: 0.49334455, y: -0.506568, z: -0.49334455, w: 0.506568}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKIKSpine_M
+      parentName: herobrine_3D_rig:FKIKParentConstraintSpine_M
+      position: {x: -0.01490104, y: 2.602085e-19, z: 0.03131168}
+      rotation: {x: -0.49334455, y: 0.506568, z: 0.49334455, w: 0.506568}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKIKParentConstraintArm_L
+      parentName: herobrine_3D_rig:FKIKSystem
+      position: {x: -0.02985773, y: 0.16391212, z: -1.4968708e-17}
+      rotation: {x: 9.948776e-16, y: -0.7071068, z: 0.7071068, w: -6.618106e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKIKArm_L
+      parentName: herobrine_3D_rig:FKIKParentConstraintArm_L
+      position: {x: 0.02977166, y: 0.00007438069, z: -0.013812829}
+      rotation: {x: 4.3297806e-17, y: -0.7071068, z: 0.7071068, w: -4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKIKParentConstraintLeg_L
+      parentName: herobrine_3D_rig:FKIKSystem
+      position: {x: -3.2846976e-18, y: 0.0954282, z: -0.0024573023}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:FKIKLeg_L
+      parentName: herobrine_3D_rig:FKIKParentConstraintLeg_L
+      position: {x: -0.031076, y: -0.021022636, z: 0.0038359754}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:DeformationSystem
+      parentName: herobrine_3D_rig:Main
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:Root_M
+      parentName: herobrine_3D_rig:DeformationSystem
+      position: {x: -3.2846976e-18, y: 0.0954282, z: -0.0024573023}
+      rotation: {x: 0.49334455, y: -0.506568, z: -0.49334455, w: 0.506568}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:Spine1_M
+      parentName: herobrine_3D_rig:Root_M
+      position: {x: -0.034845874, y: 2.3852448e-17, z: -2.2658558e-17}
+      rotation: {x: 0, y: 0, z: -0.06950874, w: 0.99758136}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:Chest_M
+      parentName: herobrine_3D_rig:Spine1_M
+      position: {x: -0.030048763, y: 7.3274716e-17, z: 4.774707e-17}
+      rotation: {x: 0, y: 0, z: 0.05631114, w: 0.99841326}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:Neck_M
+      parentName: herobrine_3D_rig:Chest_M
+      position: {x: -0.019273682, y: -4.2254358e-17, z: 6.240365e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:Head_M
+      parentName: herobrine_3D_rig:Neck_M
+      position: {x: -0.02924526, y: 0.00000002, z: -2.7670457e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:Scapula_R
+      parentName: herobrine_3D_rig:Chest_M
+      position: {x: -0.0037920447, y: -5.5421164e-17, z: -0.02985773}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:Shoulder_R
+      parentName: herobrine_3D_rig:Scapula_R
+      position: {x: -0.014870803, y: -1.8486061e-16, z: -7.105427e-17}
+      rotation: {x: 0, y: 0, z: 0.00249583, w: 0.9999969}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:Elbow_R
+      parentName: herobrine_3D_rig:Shoulder_R
+      position: {x: -0.030018289, y: -4.7472443e-16, z: -3.872458e-15}
+      rotation: {x: -0.0000000032257195, y: -0.0000039085176, z: -0.0041663484, w: 0.99999136}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:Wrist_R
+      parentName: herobrine_3D_rig:Elbow_R
+      position: {x: -0.04484837, y: 2.1561918e-15, z: 9.684342e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:Scapula_L
+      parentName: herobrine_3D_rig:Chest_M
+      position: {x: -0.0037920447, y: -4.9117035e-17, z: 0.02985773}
+      rotation: {x: 0.7071068, y: 6.7133486e-16, z: 0.7071068, w: -6.7133486e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:Shoulder_L
+      parentName: herobrine_3D_rig:Scapula_L
+      position: {x: 0.014870803, y: 1.6072556e-16, z: 0}
+      rotation: {x: 0, y: 0, z: 0.00249583, w: 0.9999969}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:Elbow_L
+      parentName: herobrine_3D_rig:Shoulder_L
+      position: {x: 0.030018289, y: 4.2625625e-16, z: 3.7658763e-15}
+      rotation: {x: -0.00000000322572, y: -0.0000039085176, z: -0.0041663484, w: 0.99999136}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:Wrist_L
+      parentName: herobrine_3D_rig:Elbow_L
+      position: {x: 0.04484837, y: -2.2294665e-15, z: -9.681855e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:Hip_R
+      parentName: herobrine_3D_rig:Root_M
+      position: {x: 0.0062594526, y: 0.0014002022, z: -0.013660545}
+      rotation: {x: -0.06917492, y: 0.9975875, z: -0.0052893395, w: 0.0024726926}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:Knee_R
+      parentName: herobrine_3D_rig:Hip_R
+      position: {x: -0.04539942, y: -4.396483e-16, z: 7.9936054e-17}
+      rotation: {x: 0, y: 0, z: 0.17539725, w: 0.9844978}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:Ankle_R
+      parentName: herobrine_3D_rig:Knee_R
+      position: {x: -0.035171226, y: -3.469447e-17, z: -4.236611e-15}
+      rotation: {x: -0.0100162495, y: 0.0039225994, z: -0.09369529, w: 0.9955428}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:Hip_L
+      parentName: herobrine_3D_rig:Root_M
+      position: {x: 0.0062594526, y: 0.0014002022, z: 0.013660545}
+      rotation: {x: 0.99758744, y: 0.06917494, z: -0.0024726924, w: -0.0052893404}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:Knee_L
+      parentName: herobrine_3D_rig:Hip_L
+      position: {x: 0.04539942, y: 4.7073454e-16, z: -6.661338e-17}
+      rotation: {x: 0, y: 0, z: 0.17539725, w: 0.9844978}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:Ankle_L
+      parentName: herobrine_3D_rig:Knee_L
+      position: {x: 0.035171226, y: 1.4821476e-16, z: 4.272138e-15}
+      rotation: {x: -0.0100162495, y: 0.0039225994, z: -0.09369529, w: 0.9955428}
+      scale: {x: 1, y: 1, z: 1}
+    - name: herobrine_3D_rig:Geometry
+      parentName: Zombie_Base_Tpose(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Heroes_Base
+      parentName: herobrine_3D_rig:Geometry
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
