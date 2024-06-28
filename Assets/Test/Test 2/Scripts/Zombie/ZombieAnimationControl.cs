@@ -11,6 +11,13 @@ public class ZombieAnimationControl : MonoBehaviour
     [SerializeField] protected float rotateSpeed = 3f;
     [SerializeField] protected Transform chest;
     [SerializeField] protected Transform head;
+    
+    [SerializeField] protected bool isLooking;
+    [SerializeField] protected Transform headOrigin;
+    [SerializeField] protected float resetTimer;
+    [SerializeField] protected Quaternion lastRotation;
+    
+    [Header("Old function")]
     [SerializeField] protected Transform previousTarget;
     [SerializeField] protected float rightRotateAngle;
     [SerializeField] protected float upRotateAngle;
@@ -30,8 +37,18 @@ public class ZombieAnimationControl : MonoBehaviour
 
     protected void Update()
     {
+        this.RayToTarget();
         this.AnimationUpdate();
         this.TurnToDirection();
+    }
+
+    protected virtual void RayToTarget()
+    {
+        Debug.DrawRay(this.head.position, this.head.forward, Color.red);
+        if (this.parent.ZombieTarget.Targeted)
+        {
+            Debug.DrawLine(this.head.position, this.parent.ZombieTarget.Targeted.position, Color.green);
+        }
     }
 
     protected void LateUpdate()
@@ -57,8 +74,8 @@ public class ZombieAnimationControl : MonoBehaviour
         this.upRotateAngle = this.GetUpRotateAngle(headPosVector, targetVector);
         
         // Get angle change amount per frame (add or subtract)
-        float scaleR = Mathf.Sign(this.rightRotateAngle - this.curRightRotate) * this.rotateSpeed;
-        float scaleU = Mathf.Sign(this.upRotateAngle - this.curUpRotate) * this.rotateSpeed;
+        float scaleR = Mathf.Sign(this.rightRotateAngle - this.curRightRotate) * 7f;
+        float scaleU = Mathf.Sign(this.upRotateAngle - this.curUpRotate) * 7f;
         
         // Clamp right rotate between current and expect angle
         this.curRightRotate = this.rightRotateAngle > this.curRightRotate ? 
@@ -74,17 +91,66 @@ public class ZombieAnimationControl : MonoBehaviour
     protected virtual void RotateHeadToTargetedLikeHuman()
     {
         this.RotateChest(new Vector3(-curRightRotate, 0f, 6.456f));
-        this.RotateHead(new Vector3(0f, 0f, curUpRotate));
+        //this.RotateHead(new Vector3(0f, 0f, curUpRotate));
+        this.RotateHead(); // Use new Rotate head
     }
 
     protected virtual void RotateHeadToTargeted()
     {
-        this.RotateHead(new Vector3(-curRightRotate, 0f, curUpRotate));
+        //this.RotateHead(new Vector3(-curRightRotate, 0f, curUpRotate));
+        this.RotateHead(); // Use new Rotate head
     }
 
     protected virtual void RotateHead(Vector3 eulerAngle)
     {
+        /*
+         * OLD Function
+         * - Rotate head by right and up axis of head (in this case right axis of zombie head is vector forward (Z) of head and
+         * - up axis is vector negative right (-X))
+         * ==> Wrong direction, don't smooth
+         */
         this.head.localEulerAngles = eulerAngle;
+    }
+    
+    protected virtual void RotateHead()
+    {
+        /*
+         * NEW Function
+         * - Create a new head with normal rotate in the model
+         * - Create an object child of the head. It will rotate exactly rotate of real head (real head write rotate of 
+         * this object with ZombieHeadCopyRotation script)
+         * - Update rotation of new head and real head also update with right direction
+         * - Use Quaternion.Slerp to smooth rotate of the head
+         */
+        if (this.parent.ZombieTarget.Targeted) // Zombie found target
+        {
+            if (!this.isLooking) // Is first time looking at the target?
+            {
+                this.isLooking = true;
+                this.lastRotation = this.head.rotation;
+            }
+            // Create Quaternion look at the target
+            Quaternion targetRotation = Quaternion.LookRotation(this.parent.ZombieTarget.Targeted.position - this.head.position);
+            // Slerp rotation to smooth action
+            this.lastRotation = Quaternion.Slerp(this.lastRotation, targetRotation, this.rotateSpeed * Time.deltaTime);
+            
+            this.head.rotation = this.lastRotation;
+            this.resetTimer = 0.5f;
+        }
+        else if (isLooking) // Zombie doesn't focus the target anymore
+        {
+            // Slerp rotation to smooth action with origin head (rotate to normal state)
+            this.lastRotation = Quaternion.Slerp(this.lastRotation, this.headOrigin.rotation, this.rotateSpeed * Time.deltaTime);
+
+            this.head.rotation = this.lastRotation;
+            // Time limit to rotate
+            this.resetTimer -= Time.deltaTime;
+            
+            if (this.resetTimer > 0f) return;
+            // Return normal state, stop looking
+            this.head.rotation = this.headOrigin.rotation;
+            this.isLooking = false;
+        }
     }
 
     protected virtual void RotateChest(Vector3 eulerAngle)

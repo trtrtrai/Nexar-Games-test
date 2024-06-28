@@ -39,14 +39,21 @@ public class ZombieMovement : MonoBehaviour
     protected void Update()
     {
         if (!this.isMoving) return;
-        this.UpdateMovingProgress();
         this.Moving();
         this.UpdateDirection();
     }
 
+    protected void FixedUpdate()
+    {
+        // Move UpdateMovingProgress into FixedUpdate
+        if (!this.isMoving) return;
+        this.UpdateMovingProgress();
+    }
+
     protected virtual void UpdateMovingProgress()
     {
-        float newProgress = this.speed / 10f * Time.deltaTime;
+        float newProgress = this.speed / 100f * Time.fixedDeltaTime;
+        // Change update moving progress to FixedUpdate (default value is always 0.02f)
         this.progress = Mathf.Clamp01(this.progress + newProgress);
     }
 
@@ -54,7 +61,7 @@ public class ZombieMovement : MonoBehaviour
     {
         Vector3 newPos = this.GetNewPosition(pathPositions);
         this.parent.transform.position = newPos;
-        if (Math.Abs(this.progress - 1f) > 0.001f) return;
+        if (1f - this.progress > 0f) return;
         this.isMoving = false;
     }
 
